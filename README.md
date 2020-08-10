@@ -1,7 +1,7 @@
 # WeatherScraper
 Get monthly weather forecast via terminal.
 
-<br />
+![Screenshot](https://raw.githubusercontent.com/BerkinAKKAYA/WeatherScraper/master/Screenshot.png)
 
 ## HOW TO USE
 * Download the Weather.py
