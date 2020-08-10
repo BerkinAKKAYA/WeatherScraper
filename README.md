@@ -1,6 +1,8 @@
 # WeatherScraper
 Get monthly weather forecast via terminal.
 
+<br />
+
 ## HOW TO USE
 * Download the Weather.py
 * Run it via terminal: `python3 Weather.py`
@@ -18,3 +20,5 @@ Get monthly weather forecast via terminal.
 * Code2 variable in the Weather.py is the last number in the URL `EAXMPLE: weather-forecast/349727`
 * Now you are ready to use WeatherScraper!
 * If you have a slow network connection, you can increase the WaitFor variable's value.
+
+https://berkinakkaya.github.io
