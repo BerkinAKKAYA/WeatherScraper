@@ -32,7 +32,7 @@ print("FETCHING WEATHER for %s..." % month.upper())
 print("Opening the Chrome Web Driver...")
 driver = webdriver.Chrome()
 
-print("Opening the URL")
+print("Opening the URL...")
 driver.get(URL)
 
 try:
