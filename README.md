@@ -21,4 +21,4 @@ Get monthly weather forecast via terminal.
 * Now you are ready to use **WeatherScraper!**
 * If you have a slow network connection, you can increase the WaitFor variable's value.
 
-https://berkinakkaya.github.io
+Created By [Berkin AKKAYA](https://berkinakkaya.github.io)
