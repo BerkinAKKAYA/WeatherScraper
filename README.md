@@ -16,8 +16,8 @@ Get monthly weather forecast via terminal.
 * Open `https://accuweather.com`
 * Search for your city.
 * Note the URL `EXAMPLE: https://www.accuweather.com/en/us/new-york/10007/weather-forecast/349727`
-* Code1 variable in the Weather.py is the number after your city in the accuweather URL | *EXAMPLE: .../new-york/**10007**/*
-* Code2 variable in the Weather.py is the last number in the URL | *EXAMPLE: .../weather-forecast/**349727**/*
+* Code1 variable in the Weather.py is the number after your city in the accuweather URL `10007 in the url above`
+* Code2 variable in the Weather.py is the last number in the URL `349727 in the url above`
 * Now you are ready to use **WeatherScraper!**
 * Depending on your network speed, you can edit the `WaitFor` variable's value.
 
