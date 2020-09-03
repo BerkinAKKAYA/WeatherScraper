@@ -6,7 +6,7 @@ Get monthly weather forecast via terminal.
 ## HOW TO USE
 * Download the `Weather.py`
 * Run it via terminal: `python3 Weather.py`
-* **IMPORTANT:** You need to have [**Selenium**](https://pypi.org/project/selenium/) and [**Chrome Driver**](https://sites.google.com/a/chromium.org/chromedriver/downloads) installed on your computer.
+* **IMPORTANT:** You need to have [**Selenium**][selenium] and [**Chrome Driver**][chrome] installed on your computer.
 * For installation, please see the [documentation](https://selenium-python.readthedocs.io/installation.html).
 
 ## CONFIGURATION
@@ -22,3 +22,7 @@ Get monthly weather forecast via terminal.
 * Depending on your network speed, you can edit the `WaitFor` variable's value.
 
 Created By [Berkin AKKAYA](https://berkinakkaya.github.io)
+
+
+[selenium]: https://raw.githubusercontent.com/BerkinAKKAYA/Pomolog/master/Screenshots/SS1.jpg "Image 1"
+[chrome]: https://raw.githubusercontent.com/BerkinAKKAYA/Pomolog/master/Screenshots/SS2.jpg "Image 2"
