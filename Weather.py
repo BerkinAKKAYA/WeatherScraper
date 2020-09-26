@@ -7,12 +7,13 @@ from selenium.common.exceptions import TimeoutException
 from datetime import datetime
 from sys import argv
 
+### EDIT THESE VARIABLES
 Country = "tr"
 City = "istanbul"
 Code1 = "318251"
 Code2 = "318251"
-# Maximum waiting time for the fetch
-WaitFor = 60 # seconds
+WaitFor = 60 # in seconds
+### Checkout README.md at [GitHub] BerkinAKKAYA/WeatherScraper for more details
 
 # GET MONTH
 currentMonth = datetime.now().strftime("%B")
