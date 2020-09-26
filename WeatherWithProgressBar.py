@@ -8,12 +8,13 @@ from datetime import datetime
 from sys import argv
 from tqdm import tqdm
 
+### EDIT THESE VARIABLES
 Country = "tr"
 City = "istanbul"
 Code1 = "318251"
 Code2 = "318251"
-# Maximum waiting time for the fetch
-WaitFor = 60 # seconds
+WaitFor = 60 # in seconds
+### Checkout README.md at [GitHub] BerkinAKKAYA/WeatherScraper for more details
 
 # GET MONTH
 currentMonth = datetime.now().strftime("%B")
@@ -37,9 +38,11 @@ driver.get(URL)
 
 try:
     print("Reading data...")
+    
     # Get Temperatures and dates
     dates = WebDriverWait(driver, WaitFor).until(EC.visibility_of_any_elements_located((By.CSS_SELECTOR, '.date')))
     temps = WebDriverWait(driver, WaitFor).until(EC.visibility_of_any_elements_located((By.CSS_SELECTOR, '.high')))
+
     # All temperatures will be collected here
     dateTempPairs = []
 
